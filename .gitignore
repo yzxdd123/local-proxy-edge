@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+state.json
+auth.json
+flows.ndjson
+flows.flow
+*.har
+edge_profile/

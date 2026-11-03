@@ -1,0 +1,7 @@
+interface:
+  display_name: "Local Proxy Edge"
+  short_description: "Open an isolated Edge through local mitmproxy and save login tokens without changing system proxy settings."
+  default_prompt: "Use $local-proxy-edge to open the loopback-proxied Edge, resume it if the window died, and extract accessToken and cookies for one host into a local auth.json."
+
+policy:
+  allow_implicit_invocation: true
